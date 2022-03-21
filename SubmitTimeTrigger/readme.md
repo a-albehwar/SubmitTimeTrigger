@@ -10,4 +10,11 @@ configure application insights for tracking app
 once all configuration is done
 click publish
 
-you can test function using the following link : https://submittimetrigger.scm.azurewebsites.net 
+you can test function using the following link : https://submittimetrigger.scm.azurewebsites.net/TimeFunction
+use body json : 
+{
+    StartOn:"10/10/2020",
+    EndOn:"10/10/2020"
+}
+
+github link : https://github.com/a-albehwar/SubmitTimeTrigger
